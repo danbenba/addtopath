@@ -34,7 +34,7 @@ Téléchargez et exécutez le fichier `.jar` depuis la page de releases.
 2. **Ouvrir le terminal :** 
    Lancez votre terminal ou invite de commande.
 
-3. **Cloner le dépôt :** 
+3. **Notez les commande suivante :** 
 
    ```bash
    git clone https://github.com/danbenba/AddToPath.git
