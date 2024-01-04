@@ -38,17 +38,8 @@ Téléchargez et exécutez le fichier `.jar` depuis la page de releases.
 
    ```bash
    git clone https://github.com/danbenba/AddToPath.git
-   ```
-
-   ```bash
    cd AddToPath
-   ```
-   
-   ```bash
    git branch -a
-   ```
-   
-   ```bash
    git status
    ```
 
