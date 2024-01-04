@@ -19,7 +19,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
-public class PathUpdaterGUI {
+public class AddToPathGUI {
 
 	@SuppressWarnings("serial")
 	static class RoundedBorder extends AbstractBorder {
@@ -51,7 +51,7 @@ public class PathUpdaterGUI {
 	    String resourcePath = "/updatePath.bat"; // Chemin vers updatePath.bat dans les ressources
 	    File tempFile = File.createTempFile("updatePath", ".bat");
 	    tempFile.deleteOnExit();
-	    try (InputStream in = PathUpdaterGUI.class.getResourceAsStream(resourcePath);
+	    try (InputStream in = AddToPathGUI.class.getResourceAsStream(resourcePath);
 	         FileOutputStream out = new FileOutputStream(tempFile)) {
 	        if (in == null) {
 	            throw new IOException("Resource not found: " + resourcePath);
@@ -88,7 +88,7 @@ public class PathUpdaterGUI {
         }
 		
 
-	    JFrame frame = new JFrame("AddToPath - Version 1.0.0 - by danbenba");
+	    JFrame frame = new JFrame("AddToPath - Version 1.0.0 Béta - by danbenba");
 	    frame.setSize(590, 280); // Window size
 	    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    frame.setLayout(null);
